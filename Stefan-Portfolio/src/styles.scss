@@ -1,7 +1,54 @@
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@use '@angular/material' as mat;
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat.core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$Stefan-Portfolio-primary: mat.define-palette(mat.$indigo-palette);
+$Stefan-Portfolio-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$Stefan-Portfolio-warn: mat.define-palette(mat.$red-palette);
+
+// Create the theme object. A theme consists of configurations for individual
+// theming systems such as "color" or "typography".
+$Stefan-Portfolio-theme: mat.define-light-theme((
+  color: (
+    primary: $Stefan-Portfolio-primary,
+    accent: $Stefan-Portfolio-accent,
+    warn: $Stefan-Portfolio-warn,
+  )
+));
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include mat.all-component-themes($Stefan-Portfolio-theme);
+
 /* You can add global styles to this file, and also import other style files */
 div,p,h1,h2,h3,h4,h5,h6,li,span{
     font-family: 'Poppins', sans-serif !important;
 }
+
+// .page-content {
+//     background-color: gray;
+// }
+
+// .circular--portrait { position: relative; width: 200px; height: 200px; overflow: hidden; border-radius: 50%; } 
+// .circular--portrait img { width: 100%; height: auto; }
+
+.circular--portrait {
+    border-radius: 50%;
+}
+
 .my-title {
     color: white;
     font-size: 120%;
@@ -37,3 +84,5 @@ ul {
     background-color: #111;
   }
 // @import url(https://unpkg.com/bootstrap@4.1.0/dist/css/bootstrap.min.css)
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
