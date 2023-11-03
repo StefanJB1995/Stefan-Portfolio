@@ -11,6 +11,7 @@ import {MatCardModule} from '@angular/material/card';
 import { WorkExperienceComponent } from './work-experience/work-experience.component'; 
 import {MatListModule} from '@angular/material/list';
 import { RouterModule } from '@angular/router';
+import { NgxPageScrollModule } from 'ngx-page-scroll';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { RouterModule } from '@angular/router';
     BrowserAnimationsModule,
     MatCardModule,
     MatListModule,
-    RouterModule
+    RouterModule,
+    NgxPageScrollModule
   ],
   providers: [],
   bootstrap: [AppComponent]

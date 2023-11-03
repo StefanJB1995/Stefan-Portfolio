@@ -57,12 +57,16 @@ div,p,h1,h2,h3,h4,h5,h6,li,span{
 .header-menu {
     text-align: center;
     width: 100%;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    overflow: hidden;
+    z-index: 100;
 }
 
-.nav-link {
-  // padding-left: 40px;
-  // text-align: center;
-}
+// .nav-link {
+//   // padding-left: 40px;
+//   // text-align: center;
+// }
 
 ul {
     list-style-type: none;
