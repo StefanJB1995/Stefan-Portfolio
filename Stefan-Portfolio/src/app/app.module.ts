@@ -10,7 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
 import { WorkExperienceComponent } from './work-experience/work-experience.component'; 
 import {MatListModule} from '@angular/material/list';
-import {ScrollingModule} from '@angular/cdk/scrolling';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -27,7 +27,7 @@ import {ScrollingModule} from '@angular/cdk/scrolling';
     BrowserAnimationsModule,
     MatCardModule,
     MatListModule,
-    ScrollingModule
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
