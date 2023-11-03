@@ -12,13 +12,16 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 import {MatListModule} from '@angular/material/list';
 import { RouterModule } from '@angular/router';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
+import { FooterComponent } from './footer/footer.component';
+ import { FooterModule } from '@coreui/angular';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     AboutComponent,
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +32,8 @@ import { NgxPageScrollModule } from 'ngx-page-scroll';
     MatCardModule,
     MatListModule,
     RouterModule,
-    NgxPageScrollModule
+    NgxPageScrollModule,
+    FooterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

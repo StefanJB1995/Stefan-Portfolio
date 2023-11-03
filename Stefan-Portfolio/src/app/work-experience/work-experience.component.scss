@@ -31,3 +31,24 @@ h5 {
 mat-card-subtitle {
     margin-top: 10px;
 }
+
+.work-exp {
+    width:1200px;
+    height: 1000px;
+    border: 2px solid;
+    border-color: lightgray;
+    margin: auto;
+    margin-top: 30px;
+    overflow-y: scroll;
+    background-color: #c5c2c2;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: lightgray;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
