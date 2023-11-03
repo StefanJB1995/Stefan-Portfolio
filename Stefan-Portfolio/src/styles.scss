@@ -56,6 +56,12 @@ div,p,h1,h2,h3,h4,h5,h6,li,span{
 
 .header-menu {
     text-align: center;
+    width: 100%;
+}
+
+.nav-link {
+  // padding-left: 40px;
+  // text-align: center;
 }
 
 ul {
@@ -65,10 +71,16 @@ ul {
     overflow: hidden;
     background-color: #333;
     display: inline-block;
+    width: 100%;
   }
-  
+
   li {
     float: left;
+  }
+  .main-nav {
+    float: center;
+    margin-left: 44%;
+
   }
   
   li a {

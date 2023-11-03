@@ -7,13 +7,17 @@ import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from './header/header.component';
 import { AboutComponent } from './about/about.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatCardModule} from '@angular/material/card'; 
+import {MatCardModule} from '@angular/material/card';
+import { WorkExperienceComponent } from './work-experience/work-experience.component'; 
+import {MatListModule} from '@angular/material/list';
+import {ScrollingModule} from '@angular/cdk/scrolling';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    AboutComponent
+    AboutComponent,
+    WorkExperienceComponent
   ],
   imports: [
     BrowserModule,
@@ -21,7 +25,9 @@ import {MatCardModule} from '@angular/material/card';
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    MatCardModule
+    MatCardModule,
+    MatListModule,
+    ScrollingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

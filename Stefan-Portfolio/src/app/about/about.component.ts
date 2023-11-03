@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent {
-  longText = `The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog
-  from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
-  originally bred for hunting.`;
+  longText = `Stefan has almost 2 years of professional experience in Computer Science. 
+        He has completed different projects in CEGEP, university and internships. 
+        Some of the projects he worked on improved his coding, documenting, planning, and testing expertise. He is always open to new challenges that can help him become a better programmer and help client’s ideas come to life.`;
 
 }
