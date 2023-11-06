@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { WorkExperienceComponent } from './work-experience.component';
-import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA } from '@angular/core';
 
 describe('WorkExperienceComponent', () => {
   let component: WorkExperienceComponent;
@@ -10,7 +10,7 @@ describe('WorkExperienceComponent', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [WorkExperienceComponent],
-      schemas: [CUSTOM_ELEMENTS_SCHEMA]
+      schemas: [CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA]
     });
     fixture = TestBed.createComponent(WorkExperienceComponent);
     component = fixture.componentInstance;
