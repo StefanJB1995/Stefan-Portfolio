@@ -33,7 +33,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: node-app
-          path: ./dist
+          path: ./dist/stefan-portfolio
 
   deploy:
     runs-on: ubuntu-latest
@@ -47,7 +47,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: node-app
-          path: ./dist
+          path: ./dist/stefan-portfolio
 
       #- name: unzip artifact for deployment
       #  run: Expand-Archive release.zip
