@@ -1,39 +1,62 @@
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .example-card {
-    max-width: 1000px;
-    margin-bottom: 8px;
-    margin: auto;
-    margin-top: 20px;
-    background-color: lightgray;
-    border-radius: 5%;
-  }
-  
-  .work-exp {
-    margin-top: 100px;
-  }
+  max-width: 1000px;
+  margin-bottom: 8px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: lightgray;
+  border-radius: 5%;
+}
+
+.work-exp {
+  margin-top: 100px;
+}
 
 //   h5 {
 //     margin-left: -200px;
 //   }
 
 h2 {
-    display: inline;
+  display: inline;
 }
 
 h5 {
-    display: inline;
-    margin: 20px;
+  display: inline;
+  margin: 20px;
 }
 
 mat-card-subtitle {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .work-exp {
-    width:1200px;
+  width: 1200px;
+  height: 1000px;
+  border: 2px solid;
+  border-color: lightgray;
+  margin: auto;
+  margin-top: 30px;
+  overflow-y: scroll;
+  background-color: #c5c2c2;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: lightgray;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+@media only screen and (max-width: 375px) {
+  .work-exp {
+    width: 300px;
     height: 1000px;
     border: 2px solid;
     border-color: lightgray;
@@ -41,14 +64,31 @@ mat-card-subtitle {
     margin-top: 30px;
     overflow-y: scroll;
     background-color: #c5c2c2;
-}
+  }
 
-::-webkit-scrollbar {
-    width: 20px;
-  }
-  ::-webkit-scrollbar-thumb {
+  .example-card {
+    max-width: 250px;
+    margin-bottom: 8px;
+    margin: auto;
+    margin-top: 20px;
     background-color: lightgray;
-    border-radius: 20px;
-    border: 6px solid transparent;
-    background-clip: content-box;
+    border-radius: 5%;
   }
+  
+  mat-list-item {
+    font-size: x-small;
+  }
+
+  h2 {
+    font-size: medium;
+  }
+
+  h5 {
+    font-size: xx-small;
+  }
+
+  mat-card-subtitle {
+    font-size: 10px;
+  }
+
+}

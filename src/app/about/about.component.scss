@@ -1,35 +1,106 @@
 .example-card {
-    max-width: 1000px;
-    margin-bottom: 8px;
-    margin: auto;
+  max-width: 1000px;
+  margin-bottom: 8px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: lightgray;
+  border-radius: 5%;
+
+}
+
+@media only screen and (max-width: 375px) {
+  .about {
+    width: auto;
+
+  }
+
+  .example-card {
+    width: 375px;
+    // margin-bottom: 8px;
+    // margin-left: 500px;
+    // margin-right: 500px;
+    //margin: auto;
+    // margin:auto;
     margin-top: 100px;
+    //margin-left: 10pz;
     background-color: lightgray;
     border-radius: 5%;
   }
 
-  .stef-img {
-    margin-right: 30px;
-    margin-bottom: 20px;
+  mat-card-content {
+    font-size: x-small;
+  }
+
+  mat-card-title {
     width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    position: relative;
   }
 
-  .about-page {
-    margin: auto;
-    text-align: center;
+  mat-card-subtitle {
+    //font-size:medium;
+    width: 200px;
+    position: relative;
   }
 
- .social-media-links {
+  mat-card-title-group {
+    float: left;
+  }
+
+  // .title-subtile {
+  //   position: relative;
+  // }
+
+  .social-media-links {
+    //margin-top: 50px;
+    //padding: 20px;
+    width: 400px;
+    margin-left: 0px;
+    float: left;
+    position: absolute;
+
+  }
+
+  .stef-img {
+    position: relative;
+    top: -55px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    transform: scale(0.5);
+  }
+
+  // mat-card-header {
+  //   position: relative;
+  // }
+}
+
+.stef-img {
+  margin-right: 30px;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.about {
+  //position: absolute;
+  max-width: auto;
+}
+
+.about-page {
+  margin: auto;
+  text-align: center;
+}
+
+.social-media-links {
   margin-top: 50px;
   padding: 20px;
-  
- }
 
- i {
+}
+
+i {
   padding-right: 50px;
- }
+}
 
- a {
+a {
   color: inherit;
- }
+}
