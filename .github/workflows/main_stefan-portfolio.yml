@@ -59,4 +59,4 @@ jobs:
           app-name: 'stefan-portfolio'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9DB64C00A4A243968AAC4F667D1F1B04 }}
-          package: .
+          package: ./dist/stefan-portfolio
