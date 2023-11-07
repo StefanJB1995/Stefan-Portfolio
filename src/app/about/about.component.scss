@@ -8,14 +8,14 @@
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 500px) {
   .about {
     width: auto;
 
   }
 
   .example-card {
-    width: 500px;
+    width: 450px;
     // margin-bottom: 8px;
     // margin-left: 500px;
     // margin-right: 500px;
@@ -28,6 +28,7 @@
   }
 
   mat-card-content {
+    margin-top: -30px;
     font-size:small;
   }
 
@@ -54,7 +55,8 @@
     //margin-top: 50px;
     //padding: 20px;
     width: 400px;
-    margin-left: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
     float: left;
     position: absolute;
 
@@ -64,7 +66,7 @@
     position: relative;
     top: -55px;
     margin-bottom: 50px;
-    margin-left: 40px;
+    margin-left: 60px;
     transform: scale(0.5);
   }
 

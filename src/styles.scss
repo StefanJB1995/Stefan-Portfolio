@@ -103,9 +103,9 @@ ul {
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 500px) {
   body {
-    width: 375px;
+    width: 100%;
     //position:fixed;
     overflow-y: auto;
     
