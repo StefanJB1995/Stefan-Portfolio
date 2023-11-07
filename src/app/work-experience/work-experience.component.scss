@@ -54,9 +54,9 @@ mat-card-subtitle {
   background-clip: content-box;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1000px) {
   .work-exp {
-    width: 450px;
+    width: 900px;
     height: 600px;
     border: 2px solid;
     border-color: lightgray;
@@ -67,7 +67,7 @@ mat-card-subtitle {
   }
 
   .example-card {
-    max-width: 400px;
+    max-width: 800px;
     margin-bottom: 8px;
     margin: auto;
     margin-top: 20px;
@@ -76,19 +76,19 @@ mat-card-subtitle {
   }
   
   mat-list-item {
-    font-size: x-small;
+    font-size: small;
   }
 
   h2 {
-    font-size: medium;
+    font-size: large;
   }
 
   h5 {
-    font-size: xx-small;
+    font-size: small;
   }
 
   mat-card-subtitle {
-    font-size: 10px;
+    font-size: 15px;
   }
 
 }
