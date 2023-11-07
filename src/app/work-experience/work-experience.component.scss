@@ -54,10 +54,10 @@ mat-card-subtitle {
   background-clip: content-box;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 768px) {
   .work-exp {
-    width: 300px;
-    height: 1000px;
+    width: 500px;
+    height: 600px;
     border: 2px solid;
     border-color: lightgray;
     margin: auto;
@@ -67,7 +67,7 @@ mat-card-subtitle {
   }
 
   .example-card {
-    max-width: 250px;
+    max-width: 400px;
     margin-bottom: 8px;
     margin: auto;
     margin-top: 20px;

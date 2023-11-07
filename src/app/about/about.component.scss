@@ -8,14 +8,14 @@
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 768px) {
   .about {
     width: auto;
 
   }
 
   .example-card {
-    width: 375px;
+    width: 500px;
     // margin-bottom: 8px;
     // margin-left: 500px;
     // margin-right: 500px;
@@ -28,7 +28,7 @@
   }
 
   mat-card-content {
-    font-size: x-small;
+    font-size:small;
   }
 
   mat-card-title {
