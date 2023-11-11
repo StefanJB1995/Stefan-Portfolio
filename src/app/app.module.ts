@@ -14,6 +14,7 @@ import { RouterModule } from '@angular/router';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { FooterComponent } from './footer/footer.component';
  import { FooterModule } from '@coreui/angular';
+import { CertificationsComponent } from './certifications/certifications.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
     HeaderComponent,
     AboutComponent,
     WorkExperienceComponent,
-    FooterComponent
+    FooterComponent,
+    CertificationsComponent
   ],
   imports: [
     BrowserModule,
