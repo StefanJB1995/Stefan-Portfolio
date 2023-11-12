@@ -100,7 +100,8 @@ ul {
     background-color: #111;
   }
 // @import url(https://unpkg.com/bootstrap@4.1.0/dist/css/bootstrap.min.css)
-html, body { height: 100%; }
+//html, body { height: 100%; }
+html, body { overflow-x: hidden; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 @media only screen and (max-width:390px) and (max-height: 844px) {
@@ -108,7 +109,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     width: 100%;
     //position:fixed;
     overflow-y: auto;
-    
+    overflow-x: hidden;
+    position: relative;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
   }
 }
 
