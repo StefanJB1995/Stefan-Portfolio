@@ -2,4 +2,14 @@
     margin: auto;
     margin-top: 30px;
     text-align: center;
+    width: 100%;
+}
+
+@media only screen and (max-width:390px) and (max-height: 844px) {
+    .wrapper {
+        margin: auto;
+        margin-top: 30px;
+        text-align: center;
+        width: 100%;
+    }
 }
