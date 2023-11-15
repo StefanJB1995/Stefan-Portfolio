@@ -3,12 +3,33 @@
         {
             "id": 1,
             "title": "Blog Website",
-            "description": "Blog website Blog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog website"
+            "description": "Blog website Blog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog website",
+            "imgName": "react-blog-app.JPG"
         },
         {
             "id": 2,
-            "title": "Blog Website",
-            "description": "Blog website Blog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog website"
+            "title": "CHRIST Website",
+            "description": "Blog website Blog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog website",
+            "imgName": "react-blog-app.JPG"
+        },
+        {
+            "id": 3,
+            "title": "REACT Website",
+            "description": "Blog website Blog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog website",
+            "imgName": "react-blog-app.JPG"
+        },
+        {
+            "id": 4,
+            "title": "POKEMON Website",
+            "description": "Blog website Blog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog website",
+            "imgName": "react-blog-app.JPG"
+        },
+        {
+            "id": 5,
+            "title": "DUDE Website",
+            "description": "Blog website Blog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog website",
+            "imgName": "react-blog-app.JPG"
         }
+        
     ]
 }

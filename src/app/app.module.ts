@@ -17,6 +17,7 @@ import { FooterComponent } from './footer/footer.component';
 import { CertificationsComponent } from './certifications/certifications.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { CommonModule } from '@angular/common';
+import {MatPaginatorModule} from '@angular/material/paginator';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { CommonModule } from '@angular/common';
     RouterModule,
     NgxPageScrollModule,
     FooterModule,
-    CommonModule
+    CommonModule,
+    MatPaginatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
