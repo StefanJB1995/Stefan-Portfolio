@@ -1,6 +1,6 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
-import { Observable } from "rxjs";
+import { Observable, catchError, map, pluck } from "rxjs";
 import { Project } from "../model/Project";
 
 @Injectable({
@@ -13,7 +13,9 @@ export class ProjectService {
 
     constructor(private httpClient: HttpClient) { }
 
-    listProject() : Observable<Project[]> {
-        return this.httpClient.get<Project[]>(this.url)
+    listProject(): Observable<Project[]> {
+        return this.httpClient.get<Project[]>(this.url).pipe(
+            map((projects : any) => projects['project'] as Project[] )
+        )
     }
 }

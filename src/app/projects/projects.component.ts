@@ -24,7 +24,9 @@ export class ProjectsComponent implements OnInit {
     this.service.listProject().subscribe(data => {
       this.projectList = data
       console.log("test")
+      console.log(JSON.stringify(this.projectList))
       console.log(this.projectList);
+      
     })
   }
 }

@@ -56,6 +56,20 @@ mat-card-subtitle {
   background-clip: content-box;
 }
 
+.matItemTitle {
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.tasks {
+  margin-top: -20px;
+}
+
 @media only screen and (max-width:390px) and (max-height: 844px) {
   .work-exp {
     //width: 370px;
