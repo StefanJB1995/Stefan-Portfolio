@@ -15,6 +15,8 @@ import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { FooterComponent } from './footer/footer.component';
  import { FooterModule } from '@coreui/angular';
 import { CertificationsComponent } from './certifications/certifications.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,8 @@ import { CertificationsComponent } from './certifications/certifications.compone
     AboutComponent,
     WorkExperienceComponent,
     FooterComponent,
-    CertificationsComponent
+    CertificationsComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +38,8 @@ import { CertificationsComponent } from './certifications/certifications.compone
     MatListModule,
     RouterModule,
     NgxPageScrollModule,
-    FooterModule
+    FooterModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
