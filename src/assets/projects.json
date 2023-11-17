@@ -9,10 +9,10 @@
         },
         {
             "id": 2,
-            "title": "CHRIST Website",
-            "description": "Blog website Blog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog website",
-            "imgName": ["react-blog-app.JPG", "create-blog.JPG"],
-            "folderName": "BlogWebsite"
+            "title": "Full Stack Todo Website",
+            "description": "Full Stack Todo Website using Angular & Java Spring Boot ",
+            "imgName": ["todo.JPG", "login-todo.JPG"],
+            "folderName": "FullStackTodoApp"
         },
         {
             "id": 3,

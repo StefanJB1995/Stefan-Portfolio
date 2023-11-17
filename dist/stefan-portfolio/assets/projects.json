@@ -3,32 +3,37 @@
         {
             "id": 1,
             "title": "Blog Website",
-            "description": "Blog website Blog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog website",
-            "imgName": "react-blog-app.JPG"
+            "description": "Christian Blog Website made with REACT and firebase.",
+            "imgName": ["react-blog-app.JPG", "create-blog.JPG"],
+            "folderName": "BlogWebsite"
         },
         {
             "id": 2,
-            "title": "CHRIST Website",
-            "description": "Blog website Blog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog website",
-            "imgName": "react-blog-app.JPG"
+            "title": "Full Stack Todo Website",
+            "description": "Full Stack Todo Website using Angular & Java Spring Boot ",
+            "imgName": ["todo.JPG", "login-todo.JPG"],
+            "folderName": "FullStackTodoApp"
         },
         {
             "id": 3,
             "title": "REACT Website",
             "description": "Blog website Blog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog website",
-            "imgName": "react-blog-app.JPG"
+            "imgName": ["react-blog-app.JPG", "create-blog.JPG"],
+            "folderName": "BlogWebsite"
         },
         {
             "id": 4,
             "title": "POKEMON Website",
             "description": "Blog website Blog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog website",
-            "imgName": "react-blog-app.JPG"
+            "imgName": ["react-blog-app.JPG", "create-blog.JPG"],
+            "folderName": "BlogWebsite"
         },
         {
             "id": 5,
             "title": "DUDE Website",
             "description": "Blog website Blog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog website",
-            "imgName": "react-blog-app.JPG"
+            "imgName": ["react-blog-app.JPG", "create-blog.JPG"],
+            "folderName": "BlogWebsite"
         }
         
     ]
