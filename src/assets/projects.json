@@ -3,7 +3,7 @@
         {
             "id": 1,
             "title": "Blog Website",
-            "description": "Blog website Blog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog website",
+            "description": "Christian Blog Website made with REACT and firebase.",
             "imgName": ["react-blog-app.JPG", "create-blog.JPG"],
             "folderName": "BlogWebsite"
         },

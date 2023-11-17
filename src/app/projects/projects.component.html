@@ -1,6 +1,6 @@
-<div class="wrapper">
+<div id="projects" class="wrapper">
   <h2>Projects</h2>
-  <mat-paginator [hidePageSize]="true" (page)="changePage($event)" [length]="5" [pageSize]="3"
+  <mat-paginator #paginatorTop [hidePageSize]="true" (page)="changePage($event)" [length]="5" [pageSize]="3"
     [pageSizeOptions]="[3, 5]" aria-label="Select page"></mat-paginator>
   <mat-card class="example-card" *ngFor="let project of currentProjectsList">
     <mat-card-header>
@@ -28,6 +28,6 @@
       <button mat-button>SHARE</button>
     </mat-card-actions>
   </mat-card>
-  <mat-paginator [hidePageSize]="true" (page)="changePage($event)" [length]="5" [pageSize]="3"
-    [pageSizeOptions]="[3, 5]" aria-label="Select page"></mat-paginator>
+  <!-- <mat-paginator #paginatorBottom [hidePageSize]="true" (page)="changePage($event)" [length]="5" [pageSize]="3"
+    [pageSizeOptions]="[3, 5]" aria-label="Select page"></mat-paginator> -->
 </div>
