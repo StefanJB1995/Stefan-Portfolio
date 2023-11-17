@@ -6,6 +6,7 @@ export class Project {
         public id: number,
         public title: string,
         public description: string,
-        public imgName: string
+        public imgName: string[],
+        public folderName: string
     ) { }
 }

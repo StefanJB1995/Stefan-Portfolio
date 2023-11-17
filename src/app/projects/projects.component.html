@@ -8,7 +8,16 @@
       <mat-card-title>{{project.title}}</mat-card-title>
       <mat-card-subtitle>Stefan John Bosco</mat-card-subtitle>
     </mat-card-header>
-    <img mat-card-image class="project-img" src="assets/img/project/{{project.imgName}}" alt="Photo of a Shiba Inu">
+    <img mat-card-image class="project-img" src="assets/img/project/{{project.folderName}}/{{project.imgName[0]}}" alt="Photo of a Shiba Inu">
+    <!-- <c-carousel [interval]="0">
+      <c-carousel-inner>
+        <c-carousel-item *ngFor="let slide of slides">
+          <img mat-card-image class="project-img" src="assets/img/project/{{project.folderName}}/slide.src" alt="Photo of a Shiba Inu">
+        </c-carousel-item>
+      </c-carousel-inner>
+      <c-carousel-control [routerLink] caption="Previous" direction="prev"></c-carousel-control>
+      <c-carousel-control [routerLink] caption="Next" direction="next"></c-carousel-control>
+    </c-carousel> -->
     <mat-card-content>
       <p>
         {{project.description}}

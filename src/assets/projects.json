@@ -4,31 +4,36 @@
             "id": 1,
             "title": "Blog Website",
             "description": "Blog website Blog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog website",
-            "imgName": "react-blog-app.JPG"
+            "imgName": ["react-blog-app.JPG", "create-blog.JPG"],
+            "folderName": "BlogWebsite"
         },
         {
             "id": 2,
             "title": "CHRIST Website",
             "description": "Blog website Blog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog website",
-            "imgName": "react-blog-app.JPG"
+            "imgName": ["react-blog-app.JPG", "create-blog.JPG"],
+            "folderName": "BlogWebsite"
         },
         {
             "id": 3,
             "title": "REACT Website",
             "description": "Blog website Blog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog website",
-            "imgName": "react-blog-app.JPG"
+            "imgName": ["react-blog-app.JPG", "create-blog.JPG"],
+            "folderName": "BlogWebsite"
         },
         {
             "id": 4,
             "title": "POKEMON Website",
             "description": "Blog website Blog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog website",
-            "imgName": "react-blog-app.JPG"
+            "imgName": ["react-blog-app.JPG", "create-blog.JPG"],
+            "folderName": "BlogWebsite"
         },
         {
             "id": 5,
             "title": "DUDE Website",
             "description": "Blog website Blog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog website",
-            "imgName": "react-blog-app.JPG"
+            "imgName": ["react-blog-app.JPG", "create-blog.JPG"],
+            "folderName": "BlogWebsite"
         }
         
     ]

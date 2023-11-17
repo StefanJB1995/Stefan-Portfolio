@@ -18,6 +18,7 @@ import { CertificationsComponent } from './certifications/certifications.compone
 import { ProjectsComponent } from './projects/projects.component';
 import { CommonModule } from '@angular/common';
 import {MatPaginatorModule} from '@angular/material/paginator';
+import { CarouselModule } from '@coreui/angular';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     NgxPageScrollModule,
     FooterModule,
     CommonModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
