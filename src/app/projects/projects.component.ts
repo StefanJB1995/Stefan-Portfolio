@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Project } from '../model/Project';
 import { ProjectService } from '../services/project-service';
-import { listFiles } from 'list-files-in-dir';
 
 @Component({
   selector: 'app-projects',
