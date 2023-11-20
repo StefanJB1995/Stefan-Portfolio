@@ -1,4 +1,4 @@
-<div id="header">
+<!-- <div id="header">
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="header-menu">
@@ -6,7 +6,10 @@
                     <div>
                         <li><a href="#banner" class="my-title">Stefan's Portfolio</a></li>
                     </div>
-                    <div class="main-nav">
+                    <li class="burger" (click)="toggleMenu()">
+                        <i class="material-icons">{{ isMenuOpen ? "close" : "menu" }}</i>
+                      </li>
+                    <div class="main-nav" [class.is-open]="isMenuOpen">
                         <li><a pageScroll [pageScrollDuration]="500" href="#about" class="nav-link">About</a></li>
                         <li><a pageScroll [pageScrollDuration]="500" href="#work-exp" class="nav-link">Experience</a></li>
                         <li><a pageScroll [pageScrollDuration]="500" href="#certifications" class="nav-link">Certifications</a></li>
@@ -17,4 +20,37 @@
             </div>
         </nav>
     </header>
-</div>
+</div> -->
+
+<!-- <header class="header">
+
+    <input class="side-menu" type="checkbox" id="side-menu"/>
+    <i class="fa-solid fa-bars fa-lg"></i>
+
+    <nav class="nav">
+        <ul class="menu">
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Blog</a> </li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+</header> -->
+<nav id="my-first">
+    <ul>
+        <li class="logotype">
+            <a href="#banner">Stefan's Portfolio</a>
+        </li>
+        <li class="burger" (click)="toggleMenu()">
+            <i class="material-icons">{{ isMenuOpen ? "close" : "menu" }}</i>
+        </li>
+        <li class="menu" [class.is-open]="isMenuOpen">
+            <a (click)="toggleMenu()" pageScroll [pageScrollDuration]="500" href="#about" class="menu-item">About</a>
+            <a (click)="toggleMenu()" pageScroll [pageScrollDuration]="500" href="#work-exp"
+                class="menu-item">Experience</a>
+            <a (click)="toggleMenu()" pageScroll [pageScrollDuration]="500" href="#certifications"
+                class="menu-item">Certifications</a>
+            <a (click)="toggleMenu()" pageScroll [pageScrollDuration]="500" href="#projects"
+                class="menu-item">Projects</a>
+        </li>
+    </ul>
+</nav>

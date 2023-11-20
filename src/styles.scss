@@ -49,56 +49,6 @@ div,p,h1,h2,h3,h4,h5,h6,li,span{
     border-radius: 50%;
 }
 
-.my-title {
-    color: white;
-    font-size: 120%;
-}
-
-.header-menu {
-    text-align: center;
-    width: 100%;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    overflow: hidden;
-    z-index: 100;
-}
-
-// .nav-link {
-//   // padding-left: 40px;
-//   // text-align: center;
-// }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    display: inline-block;
-    width: 100%;
-  }
-
-  li {
-    float: left;
-  }
-  .main-nav {
-    float: center;
-    margin-left: 44%;
-
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-  }
 // @import url(https://unpkg.com/bootstrap@4.1.0/dist/css/bootstrap.min.css)
 //html, body { height: 100%; }
 html, body { overflow-x: hidden; }
