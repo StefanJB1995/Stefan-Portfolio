@@ -25,6 +25,11 @@
 
   .banner {
     width: 100%;
+    //transform: scale(1);
+    object-fit: contain;
+    height: 200px;
+    margin-bottom: -60px;
+    margin-top: -10px;
   }
 
   .example-card {
