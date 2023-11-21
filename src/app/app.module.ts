@@ -19,6 +19,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { CommonModule } from '@angular/common';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import { CarouselModule } from '@coreui/angular';
+import { UdemyCoursesComponent } from './udemy-courses/udemy-courses.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { CarouselModule } from '@coreui/angular';
     WorkExperienceComponent,
     FooterComponent,
     CertificationsComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    UdemyCoursesComponent
   ],
   imports: [
     BrowserModule,

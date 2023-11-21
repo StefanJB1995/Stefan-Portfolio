@@ -1,0 +1,26 @@
+<!-- <div class="wrapper">
+    <c-carousel [interval]="0">
+        <c-carousel-inner>
+            <c-carousel-item *ngFor="let course of courseList">
+                <img class="img-slide" loading="lazy" [src]="course.imgName">
+            </c-carousel-item>
+        </c-carousel-inner>
+        <c-carousel-control caption="Previous" direction="prev"></c-carousel-control>
+        <c-carousel-control caption="Next" direction="next"></c-carousel-control>
+    </c-carousel>
+</div> -->
+
+<div *ngIf="courseList" class="wrapper">
+    <h2>Udemy Courses</h2>
+    <div class="imgField">
+        <div class="left-arr">
+            <i id="leftarr" class="fa-solid fa-arrow-left fa-beat-fade fa-2xl" style="color: #000000;"
+                (click)="imgPrev()"></i>
+        </div>
+        <img class="img-slide" src="{{currentImage}}">
+        <div class="right-arr">
+            <i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl" style="color: #000000;" (click)="imgNext()"></i>
+        </div>
+    </div>
+
+</div>
