@@ -13,6 +13,7 @@ export class UdemyCoursesComponent implements OnInit {
   slides: any[] = []
   currentImage: string = ""
   imgIndex: number = 0
+  totalImgs: number = 0
 
   constructor(private service: CourseService) { }
 
@@ -22,6 +23,7 @@ export class UdemyCoursesComponent implements OnInit {
       console.log(data)
       console.log(this.courseList[0].imgName)
       this.currentImage = this.courseList[0].imgName
+      this.totalImgs = this.courseList.length;
     })
   }
 

@@ -10,9 +10,10 @@
     </c-carousel>
 </div> -->
 
-<div *ngIf="courseList" class="wrapper">
+<div id="courses" *ngIf="courseList" class="wrapper">
     <h2>Udemy Courses</h2>
     <div class="imgField">
+       <p>{{imgIndex + 1}}/{{totalImgs}}</p> 
         <div class="left-arr">
             <i id="leftarr" class="fa-solid fa-arrow-left fa-beat-fade fa-2xl" style="color: #000000;"
                 (click)="imgPrev()"></i>
