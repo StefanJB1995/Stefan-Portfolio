@@ -4,7 +4,7 @@
             "id": 1,
             "title": "Blog Website",
             "description": "Christian Blog Website made with REACT and firebase.",
-            "imgName": ["react-blog-app.JPG", "create-blog.JPG"],
+            "imgName": ["react-blog-app.gif","react-blog-app.JPG", "create-blog.JPG"],
             "folderName": "BlogWebsite"
         },
         {
@@ -16,10 +16,10 @@
         },
         {
             "id": 3,
-            "title": "REACT Website",
-            "description": "Blog website Blog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog website",
-            "imgName": ["react-blog-app.JPG", "create-blog.JPG"],
-            "folderName": "BlogWebsite"
+            "title": "Stefan's Portfolio",
+            "description": "Portfolio Website made with Angular. Hosted on Azure.",
+            "imgName": ["stef-portfolio.gif", "stef-portfolio.JPG"],
+            "folderName": "StefProject"
         },
         {
             "id": 4,
