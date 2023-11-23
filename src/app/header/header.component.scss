@@ -62,14 +62,14 @@
 // .main-nav {
 //   @media only screen and (max-width:390px) and (max-height: 844px) {
 //     display: none;
-  
+
 //     &.is-open {
 //       display: block;
 //       position: absolute;
 //      // top: #{$menuHeight + 2};
 //       background: #fff;
 //       width: 100%;
-  
+
 //       .menu-item {
 //         border-bottom: 1px solid #cccccc;
 //       }
@@ -138,6 +138,7 @@
 /// 
 /// 
 $menuHeight: 60px;
+
 #my-first {
   ul {
     margin: 0;
@@ -149,13 +150,14 @@ $menuHeight: 60px;
     background-color: #333;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 
-    @media (max-width: 390px) {
+    // @media (max-width: 390px) {
+    @media (max-width: 480px) {
       position: fixed;
       top: 0;
       width: 100%;
       z-index: 100;
     }
-    
+
   }
 
   .logotype {
@@ -179,7 +181,7 @@ $menuHeight: 60px;
       line-height: $menuHeight;
     }
 
-    @media (max-width: 390px) {
+    @media (max-width: 480px) {
       display: block;
     }
   }
@@ -188,9 +190,9 @@ $menuHeight: 60px;
     display: flex;
     align-items: center;
     z-index: 10; //Added so it's on top of other components
-    
 
-    @media (max-width: 390px) {
+
+    @media (max-width: 480px) {
       display: none;
 
       &.is-open {
