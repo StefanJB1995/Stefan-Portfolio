@@ -20,6 +20,8 @@ import { CommonModule } from '@angular/common';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import { CarouselModule } from '@coreui/angular';
 import { UdemyCoursesComponent } from './udemy-courses/udemy-courses.component';
+import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -45,7 +47,9 @@ import { UdemyCoursesComponent } from './udemy-courses/udemy-courses.component';
     FooterModule,
     CommonModule,
     MatPaginatorModule,
-    CarouselModule
+    CarouselModule,
+    MatButtonModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

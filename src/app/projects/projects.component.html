@@ -7,8 +7,13 @@
       <div mat-card-avatar class="example-header-image"></div>
       <mat-card-title>{{project.title}}</mat-card-title>
       <mat-card-subtitle>Stefan John Bosco</mat-card-subtitle>
+      <!-- <button class="website-link" *ngIf="project.website != ''" mat-icon-button aria-label="Example icon button with a open in new tab icon">
+        <mat-icon><a target="_blank" href="{{project.github}}">open_in_new</a></mat-icon>
+        
+      </button> -->
     </mat-card-header>
-    <img mat-card-image class="project-img" src="assets/img/project/{{project.folderName}}/{{project.imgName[0]}}" alt="Photo of a Shiba Inu">
+    <img mat-card-image class="project-img" src="assets/img/project/{{project.folderName}}/{{project.imgName[0]}}"
+      alt="Photo of a Shiba Inu">
     <!-- <c-carousel [interval]="0">
       <c-carousel-inner>
         <c-carousel-item *ngFor="let slide of slides">
@@ -24,8 +29,11 @@
       </p>
     </mat-card-content>
     <mat-card-actions>
-      <button mat-button>LIKE</button>
-      <button mat-button>SHARE</button>
+      <button mat-raised-button color="primary"><a target="_blank" href="{{project.github}}">GitHub</a></button>
+      <button mat-raised-button color="primary">Read More</button>
+
+      <button *ngIf="project.website != ''" class="website-link" mat-raised-button color="primary"><a target="_blank"
+          href="{{project.website}}">View Website</a></button>
     </mat-card-actions>
   </mat-card>
   <!-- <mat-paginator #paginatorBottom [hidePageSize]="true" (page)="changePage($event)" [length]="5" [pageSize]="3"
