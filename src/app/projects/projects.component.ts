@@ -30,7 +30,7 @@ export class ProjectsComponent implements OnInit {
       console.log("test")
       //console.log(JSON.stringify(this.projectList))
       //console.log(this.projectList);
-      this.updateCurrentList(0, 3);
+      this.updateCurrentList(0, 2);
 
       //this.getSlides(0,3);
 
@@ -52,10 +52,10 @@ export class ProjectsComponent implements OnInit {
     console.log(event);
     console.log(event.previousPageIndex);
     if (event.pageIndex > event.previousPageIndex) {
-      this.updateCurrentList(this.projectFrom + 3, this.projectTo + 3);
+      this.updateCurrentList(this.projectFrom + 2, this.projectTo + 2);
     }
     else {
-      this.updateCurrentList(this.projectFrom - 3, this.projectTo - 3);
+      this.updateCurrentList(this.projectFrom - 2, this.projectTo - 2);
     }
 
     //console.log(this.slides);

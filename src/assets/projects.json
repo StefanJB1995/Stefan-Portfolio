@@ -27,14 +27,6 @@
             "description": "Blog website Blog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog website",
             "imgName": ["react-blog-app.JPG", "create-blog.JPG"],
             "folderName": "BlogWebsite"
-        },
-        {
-            "id": 5,
-            "title": "DUDE Website",
-            "description": "Blog website Blog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog websiteBlog website",
-            "imgName": ["react-blog-app.JPG", "create-blog.JPG"],
-            "folderName": "BlogWebsite"
         }
-        
     ]
 }
