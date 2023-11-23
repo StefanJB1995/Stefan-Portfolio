@@ -148,6 +148,13 @@ $menuHeight: 60px;
     //background: #fff;
     background-color: #333;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    @media (max-width: 390px) {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 100;
+    }
     
   }
 
